@@ -63,6 +63,54 @@ input {
 
 }
 
+.logo {
+    flex: 5 auto;
+    margin-left: 5%;
+}
+
+.logotipo {
+    width: 50px;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1%;
+    font-weight: bold;
+    border: 1px solid #CCCCCC;
+    margin: 2%;
+}
+
+.item {
+    flex: 1 auto;
+    padding-top: 1%;
+}
+
+.row {
+    flex: 1 auto;
+    flex-direction: row
+}
+
+.box {
+    flex: 1 auto;
+    padding: 1%;
+    margin: 4%;
+    background-color: #FF729F; 
+    color: white;
+}
+
+.container-box {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column
+}
 
 
 
