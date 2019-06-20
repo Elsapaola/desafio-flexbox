@@ -160,7 +160,7 @@ input {
     margin: 1%;
     display: flex;
     align-items: flex-start;
-    height: 100px;
+    align-self: stretch;
 }
 
 
